@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #ff001b;
+  cursor: pointer;
+}
+
+.sitemap {
+  max-width: 1080px;
+  margin: 50px auto;
+  font-family: "Averta Standard Regular", sans-serif;
+  color: #333;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1060px) {
+  .sitemap {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+.sitemap--heading {
+  font-family: "Lavanderia Sturdy", serif;
+  font-size: 3.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.sitemap--statement {
+  font-family: "Studio Italic", serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 60%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .sitemap--statement {
+    width: 75%;
+  }
+}
+
+.sitemap--row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .sitemap--row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .sitemap--column {
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 2px #eee solid;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .sitemap--column:last-child {
+    border-bottom: none;
+  }
+}
+
+.sitemap--subheading {
+  font-family: "Averta Standard Semibold", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 2rem 0 1rem 0;
+  letter-spacing: 0.03rem;
+}
+
+.sitemap--link {
+  letter-spacing: 0.03rem;
+}
