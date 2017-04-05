@@ -9,10 +9,10 @@ a:hover {
 }
 
 .sitemap {
-  max-width: 1080px;
-  margin: 50px auto;
-  font-family: "Averta Standard Regular", sans-serif;
   color: #333;
+  font-family: "Averta Standard Regular", sans-serif;
+  margin: 50px auto;
+  max-width: 1080px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1060px) {
