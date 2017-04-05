@@ -81,3 +81,57 @@ a:hover {
 .sitemap--link {
   letter-spacing: 0.03rem;
 }
+
+/*Footer*/
+
+.footer-site {
+  background-color: #00237e;
+  color: #fff;
+  font-family: "Averta Standard Light", sans-serif;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+.footer-site a {
+  color: #fff;
+}
+
+.footer--row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1.8rem 0;
+}
+
+.footer--row__statement {
+  display: flex;
+  font-family: "Studio Italic", serif;
+  font-size: 1.4rem;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 40%;
+  padding-left: 2.4rem;
+}
+
+.footer--row__links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.footer--heading {
+  font-family: "Averta Standard Semibold", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.legal-mentions {
+  font-family: "Averta Standard Light", sans-serif;
+  font-size: 0.8rem;
+}
