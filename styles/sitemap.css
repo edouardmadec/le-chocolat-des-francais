@@ -1,3 +1,5 @@
+/*Sitemap*/
+
 a {
   text-decoration: none;
   color: #333;
@@ -107,6 +109,25 @@ a:hover {
   padding: 1.8rem 0;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .footer--row {
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .footer--column {
+    width: 100%;
+    border-bottom: 0.15rem #fff solid;
+    padding: 1rem 0;
+  }
+  .footer--column:first-child {
+    padding-top: 0;
+  }
+}
+
 .footer--row__statement {
   display: flex;
   font-family: "Studio Italic", serif;
@@ -117,12 +138,27 @@ a:hover {
   padding-left: 2.4rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .footer--row__statement {
+    padding-left: 0;
+    padding-top: 2rem;
+    width: 100%;
+  }
+}
+
 .footer--row__links {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   width: 60%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 880px) {
+  .footer--row__links {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 .footer--heading {
