@@ -13,7 +13,8 @@ a:hover {
 .sitemap {
   color: #333;
   font-family: "Averta Standard Regular", sans-serif;
-  margin: 50px auto;
+  margin: 8rem auto;
+  margin-bottom: 6rem;
   max-width: 1080px;
 }
 
