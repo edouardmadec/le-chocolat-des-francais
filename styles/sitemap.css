@@ -27,7 +27,7 @@ a:hover {
 
 .sitemap--heading {
   font-family: "Lavanderia Sturdy", serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin-bottom: 1.8rem;
 }
 
@@ -91,6 +91,7 @@ a:hover {
   background-color: #00237e;
   color: #fff;
   font-family: "Averta Standard Light", sans-serif;
+  font-size: 0.9rem;
   width: 100%;
   line-height: 1.5rem;
 }
@@ -133,10 +134,10 @@ a:hover {
   display: flex;
   font-family: "Studio Italic", serif;
   font-size: 1.4rem;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   width: 40%;
-  padding-left: 2.4rem;
+  padding-left: 3.5rem;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 880px) {
@@ -163,12 +164,44 @@ a:hover {
 }
 
 .footer--heading {
-  font-family: "Averta Standard Semibold", sans-serif;
+  font-family: "Averta Standard Bold", sans-serif;
+  font-size: 1rem;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .legal-mentions {
   font-family: "Averta Standard Light", sans-serif;
   font-size: 0.8rem;
+}
+
+.footer--email-signup__heading {
+  font-family: "Averta Standard Bold", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+form {
+  height: 2rem;
+}
+
+input {
+  font-family: "Averta Standard Regular", sans-serif;
+  font-size: 0.8rem;
+}
+
+.footer--email-signup__field {
+  border-radius: 6px;
+  border: none;
+  padding: 0.4rem;
+  padding-left: 0.8rem;
+  height: 1.5rem;
+  width: 15rem;
+  letter-spacing: 0.03rem;
+}
+
+.footer--email-signup__field:focus {
+  outline: none;
 }

@@ -1,0 +1,20 @@
+.laventure-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/images/tablette-chocolat.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.laventure--heading {
+  color: #fff;
+  font-family: "Lavanderia Sturdy", serif;
+  font-size: 6rem;
+  text-shadow: 1px 1px 2px black; 
+}
