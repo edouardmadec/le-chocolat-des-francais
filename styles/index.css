@@ -166,7 +166,7 @@ a.nav-item {
   border-radius: 8px;
   cursor: pointer;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: normal;
   text-align: center;
   padding: 1.15rem 3rem;
@@ -193,6 +193,7 @@ a.nav-item {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   max-width: 650px;
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -220,14 +221,15 @@ a.nav-item {
 
 .highlight--image {
   width: 50%;
-  align-items: flex-start;
 }
 
-.highlight--image img {
+.highlight--image__image {
+  display: block;
   width: 100%; 
 }
 
 .highlight--statement {
+  display: block;
   width: 50%;
   background-color: #00237e;
   color: #fff;
