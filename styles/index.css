@@ -160,13 +160,13 @@ a.nav-item {
 }
 
 .btn {
-  font-family: 'Averta Standard Bold', sans-serif;
+  font-family: 'Averta Standard Black', sans-serif;
   text-transform: uppercase;
   transition: background-color 0.15s, color 0.15s;
   border-radius: 8px;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: normal;
   text-align: center;
   padding: 1.15rem 3rem;
@@ -176,24 +176,26 @@ a.nav-item {
   left: 33%;
   right:33%;
   max-width: 150px;
+  margin: 0 auto;
 }
 
 .btn--primary {
   background-color: #fff;
   color: #00237e;
-  border: 3px #00237e solid;
+  border: 3px #fff solid;
 }
 
-.btn--primary:hover, .btn--primary:focus {
+/*.btn--primary:hover, .btn--primary:focus {
   background-color: #1a398b;
-}
+}*/
 
 .statement--row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 700px;
+  max-width: 650px;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 .statement {
@@ -201,4 +203,46 @@ a.nav-item {
   font-size: 1.5rem;
   color: #333;
   text-align: center;
+}
+
+/*Highlight*/
+
+.highlight--row {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.highlight--image {
+  width: 50%;
+  align-items: flex-start;
+}
+
+.highlight--image img {
+  width: 100%; 
+}
+
+.highlight--statement {
+  width: 50%;
+  background-color: #00237e;
+  color: #fff;
+  text-align: center;
+  height: 300px;
+  padding: 2rem;
+}
+
+.statement--heading {
+  font-family: "Lavanderia Sturdy", serif;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.statement--copy {
+  font-family: "Averta Standard Regular", sans-serif;
+  font-size: 1.5rem;
 }
