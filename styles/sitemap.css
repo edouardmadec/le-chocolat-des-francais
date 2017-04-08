@@ -1,3 +1,7 @@
+svg {
+  display: none;
+}
+
 /*Sitemap*/
 
 a {
@@ -204,4 +208,9 @@ input {
 
 .footer--email-signup__field:focus {
   outline: none;
+}
+
+.facebook-icon {
+  width: 100px;
+  height: 100px;
 }
