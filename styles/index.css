@@ -169,14 +169,14 @@ a.nav-item {
   font-size: 0.9rem;
   line-height: normal;
   text-align: center;
-  padding: 1.15rem 3rem;
+  padding: 1rem 2.5rem;
   letter-spacing: 0.125em;
   position: absolute;
   z-index: 1;
   left: 33%;
   right:33%;
   max-width: 150px;
-  margin: 0 auto;
+  margin-top: 1.3rem;
 }
 
 .btn--primary {
@@ -195,8 +195,7 @@ a.nav-item {
   align-items: center;
   justify-content: center;
   max-width: 650px;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
 }
 
 .statement {
@@ -231,11 +230,14 @@ a.nav-item {
 
 .highlight--statement {
   box-sizing: border-box;
-  display: block;
   width: 50%;
   color: #fff;
   text-align: center;
   height: 100%;
+}
+
+.highlight--statement__copy {
+  display: block;
   padding: 2rem;
 }
 
@@ -247,5 +249,5 @@ a.nav-item {
 
 .statement--copy {
   font-family: "Averta Standard Regular", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
